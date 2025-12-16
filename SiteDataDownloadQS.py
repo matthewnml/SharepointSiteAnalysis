@@ -11,14 +11,14 @@ VERIFY  = True   # or r"C:\path\to\cacert.pem"
 # ===========================================
 
 # ==== inputs (QS site) ====
-TENANT_ID = "830138cc-a829-4041-926e-dea50549d68b"
-CLIENT_ID = "e377d011-c16f-4a0d-8c69-14091ec04ff2"
+TENANT_ID = ""
+CLIENT_ID = ""
 # Prefer env var; will fall back to the literal if present
-CLIENT_SECRET = os.getenv("CLIENT_SECRET") or "HnJ8Q~nFySE58UbB2bsL6RvESZQ1VIF6Q5C~ObWv"
+CLIENT_SECRET = os.getenv("CLIENT_SECRET")
 
-HOSTNAME  = "tiongseng.sharepoint.com"
-SITE_PATH = "sites/QS"
-SITE_COMPOSITE_ID = "Composite id: tiongseng.sharepoint.com,274377dd-a161-4d7e-b4ac-dd5267787e06,700f98a5-43bc-48ab-a099-f929a1ec8af3"
+HOSTNAME  = ""
+SITE_PATH = ""
+SITE_COMPOSITE_ID = "Composite id:"
 
 SITE_PAGES_TITLE = "Site Pages"
 DAYS_DAILY = 90
