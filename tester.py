@@ -11,9 +11,9 @@ VERIFY  = True   # or r"C:\path\to\cacert.pem"
 # ===========================================
 
 # ==== inputs (change these when switching sites) ====
-TENANT_ID = "830138cc-a829-4041-926e-dea50549d68b"
-CLIENT_ID = "e377d011-c16f-4a0d-8c69-14091ec04ff2"
-HOSTNAME  = "tiongseng.sharepoint.com"
+TENANT_ID = ""
+CLIENT_ID = ""
+HOSTNAME  = ""
 
 # Read your client secret from env (recommended). If missing, raise an error.
 CLIENT_SECRET = os.getenv("CLIENT_SECRET")
@@ -21,8 +21,8 @@ if not CLIENT_SECRET:
     raise RuntimeError("Set CLIENT_SECRET environment variable to your app's client secret.")
 
 # SITE PATHS & IDS
-SITE_PATH = "sites/Project-SDEManagement"  # change only this line when switching sites
-SITE_COMPOSITE_ID = "tiongseng.sharepoint.com,b6c68d09-2c2c-4a8c-8557-1217bd3506bb,1fe88523-7a1b-4cfb-be57-00d05b591233"
+SITE_PATH = ""  # change only this line when switching sites
+SITE_COMPOSITE_ID = ""
 
 SITE_PAGES_TITLE = "Site Pages"   # change only if the library is named differently
 DAYS_DAILY = 90                   # daily window
