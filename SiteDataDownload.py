@@ -1,14 +1,16 @@
 import msal, requests, pandas as pd, time
 from datetime import datetime, timedelta, timezone
 
+
+
 # ==== inputs (change these when switching sites) ====
-TENANT_ID = "830138cc-a829-4041-926e-dea50549d68b"
-CLIENT_ID = "e377d011-c16f-4a0d-8c69-14091ec04ff2"
-HOSTNAME  = "tiongseng.sharepoint.com"
+TENANT_ID = ""
+CLIENT_ID = ""
+HOSTNAME  = ""
 
 # SITE PATHS & IDS
-SITE_PATH = "sites/Project-SAAManagement"  # change only this line when switching sites
-SITE_COMPOSITE_ID = "Composite id: tiongseng.sharepoint.com,6d7cd54b-cbd5-46ab-a5d4-04d615ba2302,1fe88523-7a1b-4cfb-be57-00d05b591233"
+SITE_PATH = ""  # change only this line when switching sites
+SITE_COMPOSITE_ID = ""
 # If you switch to SDE later, only change the two lines above to:
 # SITE_PATH = "sites/Project-SDEManagement"
 # SITE_COMPOSITE_ID = "tiongseng.sharepoint.com,b6c68d09-2c2c-4a8c-8557-1217bd3506bb,1fe88523-7a1b-4cfb-be57-00d05b591233"
