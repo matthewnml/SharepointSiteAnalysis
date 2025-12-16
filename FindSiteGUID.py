@@ -1,11 +1,11 @@
 
 import requests
 
-TENANT_ID = "830138cc-a829-4041-926e-dea50549d68b"
-CLIENT_ID = "e377d011-c16f-4a0d-8c69-14091ec04ff2"
-CLIENT_SECRET = "HnJ8Q~nFySE58UbB2bsL6RvESZQ1VIF6Q5C~ObWv"
-SP_HOST   = "https://tiongseng.sharepoint.com"
-SITE_PATH = "sites/QS"
+TENANT_ID = ""
+CLIENT_ID = ""
+CLIENT_SECRET = ""
+SP_HOST   = ""
+SITE_PATH = ""
 PERIOD = "D90"
 
 
@@ -21,7 +21,7 @@ H  = {"Authorization": f"Bearer {AT}"}
 
 # Get the site by path
 resp = requests.get(
-    "https://graph.microsoft.com/v1.0/sites/tiongseng.sharepoint.com:/sites/QS?$select=id,webUrl",
+    "https://graph.microsoft.com/v1.0/sites/",
     headers=H
 )
 resp.raise_for_status()
