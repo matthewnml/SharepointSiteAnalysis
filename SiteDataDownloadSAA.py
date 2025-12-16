@@ -11,13 +11,13 @@ VERIFY  = True   # or r"C:\path\to\cacert.pem"
 # ===========================================
 
 # ==== inputs (SAA site) ====
-TENANT_ID = "830138cc-a829-4041-926e-dea50549d68b"
-CLIENT_ID = "e377d011-c16f-4a0d-8c69-14091ec04ff2"
-CLIENT_SECRET = os.getenv("CLIENT_SECRET") or "HnJ8Q~nFySE58UbB2bsL6RvESZQ1VIF6Q5C~ObWv"  # prefer env var
+TENANT_ID = ""
+CLIENT_ID = ""
+CLIENT_SECRET = os.getenv("CLIENT_SECRET")
 
-HOSTNAME  = "tiongseng.sharepoint.com"
-SITE_PATH = "sites/Project-SAAManagement"
-SITE_COMPOSITE_ID = "Composite id: tiongseng.sharepoint.com,6d7cd54b-cbd5-46ab-a5d4-04d615ba2302,1fe88523-7a1b-4cfb-be57-00d05b591233"
+HOSTNAME  = ""
+SITE_PATH = ""
+SITE_COMPOSITE_ID = "Composite id:"
 
 SITE_PAGES_TITLE = "Site Pages"
 DAYS_DAILY = 90
