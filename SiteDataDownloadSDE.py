@@ -7,13 +7,13 @@ VERIFY  = True   # or r"C:\path\to\cacert.pem"
 # ===========================================
 
 # ==== inputs (change these when switching sites) ====
-TENANT_ID = "830138cc-a829-4041-926e-dea50549d68b"
-CLIENT_ID = "e377d011-c16f-4a0d-8c69-14091ec04ff2"
-CLIENT_SECRET = os.getenv("CLIENT_SECRET") or "HnJ8Q~nFySE58UbB2bsL6RvESZQ1VIF6Q5C~ObWv"  # prefer env var
+TENANT_ID = ""
+CLIENT_ID = ""
+CLIENT_SECRET = os.getenv("CLIENT_SECRET")
 
 # SITE PATHS & IDS
-SITE_PATH = "sites/Project-SDEManagement"  # change only this line when switching sites
-SITE_COMPOSITE_ID = "tiongseng.sharepoint.com,b6c68d09-2c2c-4a8c-8557-1217bd3506bb,1fe88523-7a1b-4cfb-be57-00d05b591233"
+SITE_PATH = ""  # change only this line when switching sites
+SITE_COMPOSITE_ID = ""
 
 SITE_PAGES_TITLE = "Site Pages"   # change only if the library is named differently
 DAYS_DAILY = 90                   # daily window
